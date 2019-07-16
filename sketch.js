@@ -24,15 +24,10 @@ function change(){
     }
 }
 
-// try to make the square change color only when
-// the mouse is clicked in the square
-// let x1 = 250
-// let x2 = 350
-// let y1 = 250
-// let y2 = 350
-
 function mousePressed(){
-    change()
+    if(mouseX>=250 && mouseX<=350 && mouseY>=250 && mouseY<=350){
+        change()
+    }
 }
 
 function keyPressed(){
